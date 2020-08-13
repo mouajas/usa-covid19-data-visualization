@@ -22,7 +22,7 @@ function setup() {
   myMap = mappa.tileMap(options);
   // overlay tilemap on canvas
   myMap.overlay(canvas);
-  fill(200, 100, 100);
+  fill('green');
   // only redraw point when map changes, not every frame
   myMap.onChange(drawPoint);
 
